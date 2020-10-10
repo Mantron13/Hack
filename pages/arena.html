@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="arena.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Arena</title>
+</head>
+<style type="text/css">
+	a {
+ 	color: inherit;
+ 	text-decoration: none;
+ }
+
+ a:hover{
+ 	color: inherit;
+ }
+
+ @media (max-width: 600px){
+ 	.gam{
+ 		font-size: 50px;
+ 	}
+ 	.at {
+ 		font-size: 30px; width: 100px; border-radius: 10px;margin-top: 8%; margin-right: -13%; padding-left: 5px;
+ 	}
+ 	#cube div{
+ 		margin-left: 6%;
+ 		margin-top: 11%;
+ 	}
+ 	#cube {
+  width: 90%;
+  height: 10%;}
+  .ma {
+  	margin-left: 6%;
+  }
+  .cb {
+  	margin-left: 7%;
+  }
+ }
+</style>
+<body>
+
+
+<div class="row" style="width: 100%">
+	
+	<div class="col-lg-10 col-md-10 col-sm-6 col-xs-6">
+		<div class="container" style="padding: 30px">
+		<header class="gam">Games <span class="at">
+			<a href="../index.html">
+				Home
+			</a>
+		</span></header>
+		<div style="color: #D16E24; font-size: 50px">Try Your Luck</div>
+
+		<div class="container cb" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); height: 350px; border-radius: 30px" >
+			<div id="cube">
+					<div class="front">
+      <span>
+        <p>1</p>
+      <span style="transition-timing-function: ease-in-out;" >
+    </div>
+    <div class="back">
+      <span style="transition-timing-function: ease-in-out;" >
+        <p>2</p>
+      </span>
+      
+    </div>
+    <div class="right" >
+      <span style="transition-timing-function: ease-in-out;" >
+        <p>3</p>
+      </span>
+
+    </div>
+    <div class="left">
+      <span style="transition-timing-function: ease-in-out;" >
+        <p>4</p>
+      </span>
+    </div>
+    <div class="top">
+      <span style="transition-timing-function: ease-in-out;" >
+        <p>5</p>
+      </span>
+    </div>
+    <div class="bottom">
+      <span style="transition-timing-function: ease-in-out;" >
+        <p>6</p>
+     </span>
+    </div>
+  </div>
+  
+		</div>
+		<div >
+			
+			<div id="button" class="cb">
+				<center>
+					<button type="button" style="border-radius: 23px; font-size: 30px">
+						Roll the dice!
+					</button>
+				</center>
+			</div>
+				
+    
+  </div>
+
+  <div style="font-size: 60px; color: #D16E24 ">All Games</div>
+  <div class="row ma" style="width: 100%; margin-top: 40px">
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px; margin-bottom: 50px;">
+			<div class="gwe">
+				<center>
+					<a href="../Games/Snake/snake.html">
+						<img src="https://files.utilitylog.com/img/Snake-game-on-Google.png" class="qwp" style="width: 100%">
+					</a>
+				</center>
+			</div>
+			<div style="font-size: 40px; text-align: center;color: #FF9933"><a href="../Games/Snake/snake.html"> Snake </a></div>
+		</div>
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px; margin-bottom: 50px;">
+			<div class="gwe">
+				<center>
+					<a href="https://doodlecricket.github.io/#/">
+						<img src="https://doodlecricket.github.io/statics/banner.png" class="qwp" style="width: 100%">
+					</a>
+					
+				</center>
+			</div>
+			<div style="font-size: 40px; text-align: center;color: #FF9933"> <a href="https://doodlecricket.github.io/#/">Cricket</a></div>
+		</div>
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px; margin-bottom: 50px;">
+			<div class="gwe">
+			<center>
+				<a href="../Games/Ping-Pong/index.html">
+					<img src="https://store-images.s-microsoft.com/image/apps.24298.14073362953807348.18acabda-19d7-4bf5-8056-352b7495ecef.fc31be50-f27e-4c81-9b14-18c06c40e837" class="qwp" style="width: 100%">
+				</a>
+					
+				</center>
+			</div>
+			<div style="font-size: 40px; text-align: center;color: #FF9933"><a href="../Games/Ping-Pong/index.html">Ping Pong</a></div>
+		</div>
+
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px; margin-bottom: 50px;">
+			<div class="gwe" >
+			<center>
+				<a href="https://playtictactoe.org/">
+					<img src="../image1.png" class="qwp" style="width: 100%">
+				</a>
+					
+				</center>
+			</div>
+			<div style="font-size: 40px; text-align: center;color: #FF9933"><a href="https://playtictactoe.org/">Tic Tac Toe</a></div>
+		</div>
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px;margin-bottom: 50px;">
+			<div class="gwe">
+			<center>
+				<a href="https://sudoku.com/">
+					<img src="../nopathCopy3.png" class="qwp" style="width: 100%">
+				</a>
+					
+				</center>
+			</div>
+			<div style="font-size: 40px; text-align: center;color: #FF9933"><a href="https://sudoku.com/">Sudoku</a></div>
+		</div>
+		<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12" style="height: 250px;margin-bottom: 50px;">
+			<center>
+				<div class="gwe" >
+				<center>
+					<a href="https://www.google.com/search?q=play+pacman+doodle">
+						<img src="../image3.png" class="qwp" style="width: 100%">
+					</a>
+					
+				</center>
+			</div>
+			</center>
+			
+			<div style="font-size: 40px; text-align: center;color: #FF9933"><a href="https://www.google.com/search?q=play+pacman+doodle">Pacman</a> </div>
+		</div>
+	</div>
+	
+	</div>
+
+</div>
+
+	<div class="col-lg-2 col-md-2 cold-xs-3 col-sm-2" style="height: auto;">
+		<img src="../game.png" width="115%">
+		<img src="../g2.png" width="115%" height="35%;">
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	var cube = document.getElementById('cube');
+
+var min = 4;
+var max = 20;
+
+button.onclick = function() {
+  var xRand = getRandom(max, min);
+  var yRand = getRandom(max, min);
+    
+  cube.style.webkitTransform = 'rotateX('+xRand+'deg) rotateY('+yRand+'deg)';
+  cube.style.transform = 'rotateX('+xRand+'deg) rotateY('+yRand+'deg)';
+}
+
+function getRandom(max, min) {
+  return (Math.floor(Math.random() * (max-min)) + min) * 90;
+}
+</script>
+</html>
